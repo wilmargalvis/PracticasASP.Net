@@ -1,0 +1,6 @@
+C:\Proyectos\Practica 3\EntidadesNegocio\bin\Debug\EntidadesNegocio.dll
+C:\Proyectos\Practica 3\EntidadesNegocio\bin\Debug\EntidadesNegocio.pdb
+C:\Proyectos\Practica 3\EntidadesNegocio\obj\Debug\EntidadesNegocio.csproj.AssemblyReference.cache
+C:\Proyectos\Practica 3\EntidadesNegocio\obj\Debug\EntidadesNegocio.csproj.CoreCompileInputs.cache
+C:\Proyectos\Practica 3\EntidadesNegocio\obj\Debug\EntidadesNegocio.dll
+C:\Proyectos\Practica 3\EntidadesNegocio\obj\Debug\EntidadesNegocio.pdb

@@ -1,0 +1,9 @@
+C:\Proyectos\Practica 3\DatosNegocio\bin\Debug\DatosNegocio.dll
+C:\Proyectos\Practica 3\DatosNegocio\bin\Debug\DatosNegocio.pdb
+C:\Proyectos\Practica 3\DatosNegocio\bin\Debug\EntidadesNegocio.dll
+C:\Proyectos\Practica 3\DatosNegocio\bin\Debug\EntidadesNegocio.pdb
+C:\Proyectos\Practica 3\DatosNegocio\obj\Debug\DatosNegocio.csproj.AssemblyReference.cache
+C:\Proyectos\Practica 3\DatosNegocio\obj\Debug\DatosNegocio.csproj.CoreCompileInputs.cache
+C:\Proyectos\Practica 3\DatosNegocio\obj\Debug\DatosNegocio.csproj.CopyComplete
+C:\Proyectos\Practica 3\DatosNegocio\obj\Debug\DatosNegocio.dll
+C:\Proyectos\Practica 3\DatosNegocio\obj\Debug\DatosNegocio.pdb
