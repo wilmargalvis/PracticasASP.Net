@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="PrimerServicioSOAP">
+        <s:complexType />
+      </s:element>
+      <s:element name="PrimerServicioSOAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrimerServicioSOAPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SegundoServicioSOAP">
+        <s:complexType />
+      </s:element>
+      <s:element name="SegundoServicioSOAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SegundoServicioSOAPResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CuartoServicioSOAP">
+        <s:complexType />
+      </s:element>
+      <s:element name="CuartoServicioSOAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CuartoServicioSOAPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuintoServicioSOAP">
+        <s:complexType />
+      </s:element>
+      <s:element name="QuintoServicioSOAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QuintoServicioSOAPResult" type="tns:Persona" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Persona">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="apellido" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PrimerServicioSOAPSoapIn">
+    <wsdl:part name="parameters" element="tns:PrimerServicioSOAP" />
+  </wsdl:message>
+  <wsdl:message name="PrimerServicioSOAPSoapOut">
+    <wsdl:part name="parameters" element="tns:PrimerServicioSOAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="SegundoServicioSOAPSoapIn">
+    <wsdl:part name="parameters" element="tns:SegundoServicioSOAP" />
+  </wsdl:message>
+  <wsdl:message name="SegundoServicioSOAPSoapOut">
+    <wsdl:part name="parameters" element="tns:SegundoServicioSOAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="CuartoServicioSOAPSoapIn">
+    <wsdl:part name="parameters" element="tns:CuartoServicioSOAP" />
+  </wsdl:message>
+  <wsdl:message name="CuartoServicioSOAPSoapOut">
+    <wsdl:part name="parameters" element="tns:CuartoServicioSOAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="QuintoServicioSOAPSoapIn">
+    <wsdl:part name="parameters" element="tns:QuintoServicioSOAP" />
+  </wsdl:message>
+  <wsdl:message name="QuintoServicioSOAPSoapOut">
+    <wsdl:part name="parameters" element="tns:QuintoServicioSOAPResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SOAPPersonaSoap">
+    <wsdl:operation name="PrimerServicioSOAP">
+      <wsdl:input message="tns:PrimerServicioSOAPSoapIn" />
+      <wsdl:output message="tns:PrimerServicioSOAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SegundoServicioSOAP">
+      <wsdl:input message="tns:SegundoServicioSOAPSoapIn" />
+      <wsdl:output message="tns:SegundoServicioSOAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CuartoServicioSOAP">
+      <wsdl:input message="tns:CuartoServicioSOAPSoapIn" />
+      <wsdl:output message="tns:CuartoServicioSOAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QuintoServicioSOAP">
+      <wsdl:input message="tns:QuintoServicioSOAPSoapIn" />
+      <wsdl:output message="tns:QuintoServicioSOAPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SOAPPersonaSoap" type="tns:SOAPPersonaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PrimerServicioSOAP">
+      <soap:operation soapAction="http://tempuri.org/PrimerServicioSOAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SegundoServicioSOAP">
+      <soap:operation soapAction="http://tempuri.org/SegundoServicioSOAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuartoServicioSOAP">
+      <soap:operation soapAction="http://tempuri.org/CuartoServicioSOAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuintoServicioSOAP">
+      <soap:operation soapAction="http://tempuri.org/QuintoServicioSOAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SOAPPersonaSoap12" type="tns:SOAPPersonaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PrimerServicioSOAP">
+      <soap12:operation soapAction="http://tempuri.org/PrimerServicioSOAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SegundoServicioSOAP">
+      <soap12:operation soapAction="http://tempuri.org/SegundoServicioSOAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuartoServicioSOAP">
+      <soap12:operation soapAction="http://tempuri.org/CuartoServicioSOAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuintoServicioSOAP">
+      <soap12:operation soapAction="http://tempuri.org/QuintoServicioSOAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SOAPPersona">
+    <wsdl:port name="SOAPPersonaSoap" binding="tns:SOAPPersonaSoap">
+      <soap:address location="https://localhost:44381/SOAPPersona.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SOAPPersonaSoap12" binding="tns:SOAPPersonaSoap12">
+      <soap12:address location="https://localhost:44381/SOAPPersona.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

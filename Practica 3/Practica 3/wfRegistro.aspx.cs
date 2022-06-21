@@ -35,7 +35,7 @@ namespace Practica_3
                 //Guardar(_objBERegistro);
 
                 /*2. Buscar*/
-                //Buscar("mar"); // Nombres que terminen por mar
+                Buscar("mar"); // Nombres que terminen por mar
 
                 /*3. Eliminar*/
                 _objBERegistro.Id = 1;
@@ -55,7 +55,7 @@ namespace Practica_3
                 //ConsultarEstadoSaludEmpleados(2);
 
                 //5.Guardar listado empleados en varias tbl relacionadas
-                guardarRegistrosLista();
+                //guardarRegistrosLista();
 
 
 

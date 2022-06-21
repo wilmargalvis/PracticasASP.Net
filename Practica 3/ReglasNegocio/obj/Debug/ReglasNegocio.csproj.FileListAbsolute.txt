@@ -11,3 +11,16 @@ C:\Proyectos\Practica 3\ReglasNegocio\obj\Debug\ReglasNegocio.dll
 C:\Proyectos\Practica 3\ReglasNegocio\obj\Debug\ReglasNegocio.pdb
 C:\Proyectos\Practica 3\ReglasNegocio\bin\Debug\Interfaces.dll
 C:\Proyectos\Practica 3\ReglasNegocio\bin\Debug\Interfaces.pdb
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\bin\Debug\ReglasNegocio.dll
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\bin\Debug\ReglasNegocio.pdb
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\bin\Debug\DatosNegocio.dll
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\bin\Debug\EntidadesNegocio.dll
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\bin\Debug\Interfaces.dll
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\bin\Debug\DatosNegocio.pdb
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\bin\Debug\EntidadesNegocio.pdb
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\bin\Debug\Interfaces.pdb
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\obj\Debug\ReglasNegocio.csproj.AssemblyReference.cache
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\obj\Debug\ReglasNegocio.csproj.CoreCompileInputs.cache
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\obj\Debug\ReglasNegocio.csproj.CopyComplete
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\obj\Debug\ReglasNegocio.dll
+C:\Proyectos\PracticasASP.Net\Practica 3\ReglasNegocio\obj\Debug\ReglasNegocio.pdb
